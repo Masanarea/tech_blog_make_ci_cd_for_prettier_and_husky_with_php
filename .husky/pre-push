@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm run prettier -- my_test2.php --write
+git add .
+
+# ↓commit や push の無限ループに入るので実行してはいけない(修正)
+# git commit -m "Format code with Prettier"
+# git push origin master
