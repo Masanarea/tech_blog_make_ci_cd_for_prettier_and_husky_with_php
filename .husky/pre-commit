@@ -5,3 +5,43 @@ npm run prettier -- my_test.php --write
 git add .
 
 
+
+
+# Japanese
+# Huskyのカスタマイズサンプル
+
+# 具体例１:
+# フォルダ内の
+# 『app/Http/Controllers/Controller.php,config,database』
+# フォルダやファイルのソースコードを全て整形する場合
+
+
+
+npm run prettier -- app/Http/Controllers/Controller.php --write
+npm run prettier -- config/* --write
+npm run prettier -- database/* --write
+
+git add .
+
+
+
+
+
+
+
+
+# English
+# Husky customisation samples
+
+# Concrete example 1:.
+# In the folder.
+# "app/Http/Controllers/Controller.php,config,database"
+# When formatting all source code in folders and files.
+
+
+
+# npm run prettier -- app/Http/Controllers/Controller.php --write
+# npm run prettier -- config/* --write
+# npm run prettier -- database/* --write
+
+# git add .
