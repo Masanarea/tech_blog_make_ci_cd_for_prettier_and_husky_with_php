@@ -4,8 +4,7 @@
 個人開発を進める際にPrettierとHuskyをPHPプロジェクトに導入して自動でコード整形してくれるように実装しました。
 今回はその時の導入手順をシンプルにまとめました！😆
 
-![er_grapth-ページ4.drawio (1).png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2980785/a6e4cdae-d46b-211e-fb69-6bbdcf30fe4a.png)
-
+![iugserrs](https://github.com/Masanarea/tech_blog_make_ci_cd_for_prettier_and_husky_with_php/assets/93495976/20b63f0b-1659-4e92-809d-6032f5bfcb4e)
 
 
 フロントエンド界隈ならまだしも、バックエンド言語での記事をあまり見かけなかったり、見かけたとしても『動かない...(あるある)』みたいなことを体験したので
@@ -69,7 +68,7 @@ laravel_app
 ソースコードを良い感じに整えてくれるツールです。
 下のキャプチャーでいうと、『コード整形前』から『コード整形後』のようにきれいに書き換えてくれる機能が Prettier の役割です。
 
-![er_grapth-ページ4.drawio (1).png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2980785/a6e4cdae-d46b-211e-fb69-6bbdcf30fe4a.png)
+![iugserrs](https://github.com/Masanarea/tech_blog_make_ci_cd_for_prettier_and_husky_with_php/assets/93495976/5a8c8bf5-be3b-4480-be0c-9dec61d37240)
 
 ### Husky とは？
 
@@ -304,7 +303,7 @@ if ($num >= 10) {
 * if 文あたりでいい感じにスペース空けてくれる(PSR-2準拠の記述)
 * スペース4つ分の間隔を自動で開けてくれる<br>『.prettierrc』ファイルの "tabWidth": 2 にすればスペース2つ分になります!
 
-![er_grapth-ページ4.drawio (1).png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2980785/a6e4cdae-d46b-211e-fb69-6bbdcf30fe4a.png)
+![iugserrs](https://github.com/Masanarea/tech_blog_make_ci_cd_for_prettier_and_husky_with_php/assets/93495976/08ad2ef5-c8c2-4211-9bbc-2fb1c6dc282b)
 
 
 これが Preiiter というソースコード整形ツールを使用するメリットになります。
